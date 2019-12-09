@@ -67,6 +67,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
   ],
 }

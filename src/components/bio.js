@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 
+
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
@@ -37,7 +38,7 @@ const Bio = () => {
     >
 
       <p>
-        Owner <strong>{author}</strong> 
+        Owner <strong>{author}</strong>
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
